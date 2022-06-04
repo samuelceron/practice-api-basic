@@ -4,16 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gatos aleatorios</title>
+    <title>Gatos</title>
     
 </head>
 <body>
-    <h1>Gatos aleatorios</h1>    
-    <img id="img1" width="150" src="" alt="Foto gato aleatorio">
-    <img id="img2" width="150" src="" alt="Foto gato aleatorio">
-    <img id="img3" width="150" src="" alt="Foto gato aleatorio">
+    <section id="randomcats">
+        <h1>Aleatorios</h1>
+        <article>
+            <img id="img1" width="150" src="" alt="Foto gato aleatorio">
+            <button>Guardar en favorito</button>
+        </article>
+        <article>
+            <img id="img2" width="150" src="" alt="Foto gato aleatorio">
+            <button>Guardar en favorito</button>
+        </article>    
+        <article>
+            <img id="img3" width="150" src="" alt="Foto gato aleatorio">
+            <button>Guardar en favorito</button>
+        </article>
+        <button onclick="reload()">Recargar</button>
+    </section>
 
-    <button onclick="reload()">Recargar</button>
+    <section id="randomcats">
+        <h2>Favoritos</h1>
+        <article>
+            <img id="img1" width="150" src="" alt="Foto gato aleatorio">
+            <button>Quitar de favoritos</button>
+        </article>
+    </section>
 
     <script src="./config.js"></script>
     <script src="./main.js"></script>
