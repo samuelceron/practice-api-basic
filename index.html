@@ -9,19 +9,16 @@
 </head>
 <body>
     <section id="randomcats">
+        <span id="error"></span>
         <h1>Aleatorios</h1>
         <article>
             <img id="img1" width="150" src="" alt="Foto gato aleatorio">
-            <button>Guardar en favorito</button>
+            <button id="btn1" onclick="saveFavoriteMichis()">Guardar en favoritos</button>
         </article>
         <article>
             <img id="img2" width="150" src="" alt="Foto gato aleatorio">
-            <button>Guardar en favorito</button>
+            <button id="btn2" onclick="saveFavoriteMichis()">Guardar en favoritos</button>
         </article>    
-        <article>
-            <img id="img3" width="150" src="" alt="Foto gato aleatorio">
-            <button>Guardar en favorito</button>
-        </article>
         <button onclick="reload()">Recargar</button>
     </section>
 
